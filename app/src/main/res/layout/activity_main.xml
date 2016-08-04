@@ -21,7 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Record"
+        android:text="GPS&amp;Time"
         android:id="@+id/button1"
         android:layout_alignTop="@+id/button2"
         android:layout_alignParentStart="true" />
@@ -29,7 +29,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop"
+        android:text="WEBVIEW"
         android:id="@+id/button2"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -37,7 +37,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="play"
+        android:text="REC/STOP"
         android:id="@+id/button3"
         android:layout_alignTop="@+id/button2"
         android:layout_alignRight="@+id/textView"
@@ -46,16 +46,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:gravity="center"
+        android:text="Coordinates:"
         android:id="@+id/textView2"
         android:layout_marginTop="68dp"
         android:layout_below="@+id/button2"
-        android:layout_alignStart="@+id/textView3" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:gravity="center"
+        android:text="Time:"
         android:id="@+id/textView3"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
